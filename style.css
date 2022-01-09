@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color:#020d18;
+   
+}
+a{
+    text-decoration: none;
+}
+
+.year {
+    color: white;
+    background: rgb(180, 180, 1);
+    padding: 5px;
+    width: 75px;
+    border: none;
+    border-radius: 5px;
+}
+.action{
+    color: white;
+    background: rgb(27, 190, 177);
+    padding: 5px;
+    width: 115px;
+    border: none;
+    border-radius: 5px;
+}
+.adventure{
+    color: white;
+    background: rgb(190, 92, 27);
+    padding: 5px;
+    width: 125px;
+    border: none;
+    border-radius: 5px;
+
+}
+.redbtn{
+
+    padding: 15px;
+    background-color: #FF0000;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.4);
+    transition: 0.7s;
+   
+    
+    
+}
+.redbtn:hover{
+    background-color: black;
+    box-shadow: 0 0 0 black;
+}
+
+
+
+.blackbtn{
+    margin-left: 25px;
+    padding: 15px;
+    background-color: black;
+    color: #fff;
+    transition: 0.7s;
+    border-radius: 50px;
+
+
+}
+.blackbtn:hover{
+    background-color: #FF0000;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.4) ;
+}
+
+
+header{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/HOMEPAGE.jpg);
+    padding: 35px;
+    
+
+}
+header .logo a{
+    margin-left: 85px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+header .logo p{
+    
+    margin-left: 5px;
+    color: #FF0000;
+    
+}
+
+.nav li{
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav li a{
+    font-size: 18px;
+    color: white;
+    transition: 0.8s;
+}
+.nav li a:hover{
+    color: #FF0000;
+}
+.demo{
+    display:flex;
+    align-items: center;
+}
+
+.input{
+    margin-right: 80px;
+}
+.input input{
+    
+    color: #FF0000;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #FF0000;
+    
+    font-size: 18px;
+}
+.input input:focus{
+    outline: none;
+    
+}
+.demo input::placeholder{
+    color: #FF0000;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.search{
+    font-size: 15px;
+    color: #FF0000;
+}
+.headerbtn{
+    margin-right: 20px;
+
+}
+.login{
+    margin: 15px;
+    
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 20px;
+    transition: 1.5s;
+   
+}
+.login:hover{
+    border-radius: 50px;
+    background-color: #FF0000;
+    color: white;
+    padding: 20px;
+
+
+}
+.signin{
+    
+    border-radius: 50px;
+    
+    color: white;
+    font-size: 18px;
+    transition: 2.3s;
+    padding: 20px;
+    background-color: #FF0000;
+}
+.signin:hover{
+
+    padding: 20px;
+    background-color: transparent;
+
+}
+
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/HOMEPAGE.jpg);
+    
+}
+
+.home-text{
+    margin-left: 140px;
+    
+}
+.home-link a{
+     margin: 5px;  
+
+}
+.home-text h1{
+    margin-top: 10px;
+    font-size: 60px;
+    color: white;
+}
+.home-text p{
+    
+    width: 610px;
+    font-size: 15px;
+    margin-top:10px ;
+    margin-bottom: 25px;
+    color: rgba(202, 198, 198, 0.664);
+    font-weight: 400;
+    
+    
+}
+.homebtn{
+    margin-top: 65px;
+}
+.home-img img{
+    margin-top: 45px;
+    margin-right: 155px;
+}
+
+.serials{
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/series.jpg);
+    
+}
+
+.serials-video{
+    margin-left: 35px;
+    margin-right: 25px;
+}
+.serials-text{
+    margin: 65px;
+}
+.serials-link a{
+    margin: 5px;  
+
+}
+.serials-text h2{
+   margin-top: 10px;
+   font-size: 45px;
+   color: white;
+   letter-spacing: 3px;
+}
+.serials-text p{
+   
+   width: 610px;
+   font-size: 15px;
+   margin-top:10px ;
+   margin-bottom: 25px;
+   color: rgba(202, 198, 198, 0.664);
+   font-weight: 400;
+   
+   
+}
+.serials-btn{
+   margin-top: 65px;
+}
+
+
+.ads{
+    margin-left: 250px;
+}
+
+
+.movies{
+    margin-top: 35px;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.movies-cards{
+    margin: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+    
+    
+    
+    
+}
+.card{
+   
+    height: 280px;
+    width: 222px;
+    margin-bottom: 20px;
+    
+
+}
+.card img{
+    filter: grayscale(40%);
+}
+.c-container{
+    margin-top: 5px;
+
+}
+.c-container h4{
+    color: #fff;
+    font-size: 18px;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px ;
+}
+.r-year{
+    color: #fff;
+    font-size: 16px;
+}
+.r-text{
+    display: flex;
+    align-items: center;
+    
+}
+.r-text p{
+    margin:0 10px ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 1.5s;
+}
+.r-text p:hover{
+   color: crimson;
+}
+.r-text span{
+    color: rgb(240, 149, 14);
+}
+
+.card:hover{
+    box-shadow: 2px 2px 5px 5px rgba(27, 27, 27, 0.486);
+}
+
+.card-load{
+    margin-left: 600px;
+    color: #fff;
+    padding: 15px;
+    background-color: #010f1afc ;
+    border-radius: 50px;
+    word-spacing: 5px;
+}
+.card-load:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.486);
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.details-img img{
+     margin-left: 55px;
+     filter: grayscale(20%);
+}
+
+
+.d-middle-text h2{
+    color: #fff;
+    font-size: 35px;
+    width: 385px;
+    margin-bottom: 10px;
+}
+
+.d-middle-text p{
+    width: 480px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 300;
+    margin-bottom: 15px;
+}
+.d-middle-text a{
+    color: #fff;
+    word-spacing: 5px;
+    transition: 1.2s;
+    font-size: 18px;
+
+}
+.d-middle-text a:hover{
+    color: crimson;
+}
+
+
+
+
+
+
+
+.details-card{
+    margin-right: 45px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.cards-text h4{
+    width: 210px;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 16px;
+}
+.cards-text a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 25px;
+    transition: 1.2s;
+}
+.cards-text a:hover{
+    color: crimson;
+}
+
+
+footer{
+    margin-bottom: 25px;
+    height: 200px;
+    
+}
+
+footer p{
+    color: rgb(83, 81, 81);
+    margin-left: 550px;
+    margin-top: 100px;
+}
+footer span{
+    font-size: 18px;
+    color: crimson;
+    margin-left: 5px;
+}
+
+.contact-link{
+    margin-left: 480px;
+    
+}
+
+.contact-link a{
+    margin: 35px;
+    color: crimson;
+    font-size: 35px;
+    transition: 2.5s;
+}
+
+.contact-link a:hover{
+    color: #fff;
+}
